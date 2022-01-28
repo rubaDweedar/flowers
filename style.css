@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, #ffb703 25%, #fff 25%);
+}
+.nav{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icons i{
+    margin-right: 100px;
+    font-size: 25px;
+}
+.icons{
+    width:50%;
+    display: inline-block;
+}
+.menu li{
+    display: inline;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu{
+    width:50%;
+    display: flex;
+}
+#last{
+    flex-grow: 0;
+}
+main{
+    display: flex;
+}
+.photo{
+    width:50%;
+    background-color: black;
+}
+.photo img{
+   width:100%;
+    max-height:100%;
+}
+.js{
+    height: 60px;
+    display: flex;
+}
+.spans{
+    display: flex;
+    width: 60%;
+    color: #ffb703;
+}
+.spans span{
+    flex-grow: 1;
+    text-align: center;
+    align-self:center;
+}
+.arrow{
+    width: 40%;
+    display: flex;
+    background-color: #ffb703;
+    height: 100%;
+}
+.arrow i{
+    flex-grow: 1;
+    text-align: center;
+    align-self:center;
+}
+#main{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.fashion{
+    display: inline-block;
+    background-color: rgb(172, 172, 172);
+    color: white;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+.name{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.info{
+    color:  rgb(172, 172, 172);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+.read{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    flex-grow: 1;
+}
+.read i{
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.sub{
+    font-weight: 600;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 10px 0px rgb(202, 202, 202);
+    background-color:#ffb703 ;
+}
+.form input{
+    width: 60%;
+    border: none;
+    height: 70px;
+    background-color:#fff ;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.form button{
+    width: 40%;
+    height: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:#ffb703 ;
+} 
+.form input::placeholder{
+    color:rgb(172, 172, 172) ;
+}
+#second{
+    color:rgb(202, 202, 202)
+}
